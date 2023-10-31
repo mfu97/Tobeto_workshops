@@ -1,8 +1,8 @@
-package org.example;
+package Workshop_Day3;
 
-import org.example.business.CarManager;
-import org.example.dataAccess.HibernateCarDao;
-import org.example.entities.Car;
+import Workshop_Day3.business.CarManager;
+import Workshop_Day3.dataAccess.HibernateCarDao;
+import Workshop_Day3.entities.Car;
 
 
 public class Main {
@@ -15,7 +15,7 @@ public class Main {
 
         CarManager carManager = new CarManager(new HibernateCarDao());
         carManager.add(car2);
-        carManager.update(car1,"06BJK1646");
+        carManager.update(car1,"06BJK1645");
         carManager.delete(car2);
     }
 

@@ -1,4 +1,4 @@
-package org.example.entities;
+package Workshop_Day3.entities;
 
 public class Car {
     private String licensePlate;

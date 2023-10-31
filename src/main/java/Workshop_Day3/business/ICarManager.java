@@ -1,7 +1,7 @@
-package org.example.business;
+package Workshop_Day3.business;
 
 
-import org.example.entities.Car;
+import Workshop_Day3.entities.Car;
 
 public interface ICarManager {
     public void add (Car car);

@@ -1,6 +1,6 @@
-package org.example.dataAccess;
+package Workshop_Day3.dataAccess;
 
-import org.example.entities.Car;
+import Workshop_Day3.entities.Car;
 
 public class JdbcCarDao implements CarDao {
     @Override

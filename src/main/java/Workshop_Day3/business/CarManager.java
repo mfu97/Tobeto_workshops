@@ -1,8 +1,7 @@
-package org.example.business;
+package Workshop_Day3.business;
 
-import org.example.dataAccess.JdbcCarDao;
-import org.example.dataAccess.CarDao;
-import org.example.entities.Car;
+import Workshop_Day3.dataAccess.CarDao;
+import Workshop_Day3.entities.Car;
 
 public class CarManager implements ICarManager{
     private CarDao carDao;
